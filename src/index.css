@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+@font-face {
+	font-family: Neue-light;
+	src: url(./font/NeueMontreal-Light.otf);
+}
+@font-face {
+	font-family: Neue-reg;
+	src: url(./font/NeueMontreal-Regular.otf);
+}
+@font-face {
+	font-family: Neue-med;
+	src: url(./font/NeueMontreal-Medium.otf);
+}
+@font-face {
+	font-family: Neue-bold;
+	src: url(./font/NeueMontreal-Bold.otf);
+}

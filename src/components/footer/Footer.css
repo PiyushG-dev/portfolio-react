@@ -1,0 +1,85 @@
+.f-wrapper{
+    background-color: #1c1d20;
+    padding: 12rem 15rem;
+}
+
+.f-container div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.f-container div:nth-child(1) img{
+    width: 75px;
+    height: 75px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.f-container div:nth-child(1) h1{
+    font-family: Neue-light;
+    font-size: 5rem;
+    letter-spacing: .2rem;
+    color: #fff;
+}
+
+.f-container div:nth-child(2) h1{
+    font-family: Neue-light;
+    font-size: 5rem;
+    letter-spacing: .2rem;
+    color: #fff;
+}
+
+.f-container div:nth-child(3){
+    border-bottom: 2px solid #cecece29;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.f-container div:nth-child(3) .f-button{
+   position: absolute;
+   right: 2rem;
+   font-family: Neue-reg;
+   color: #cecece;
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   background-color: #455CE9;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.f-container .contact{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    
+}
+.f-container .contact .email{
+   border: none;
+   background-color: transparent;
+   font-family: Neue-light;
+   font-size: 1.2rem;
+   letter-spacing: .1rem;
+   color:#fff; 
+   border: 1px solid #cecece29;
+   padding: 1.5rem 2.5rem;
+   border-radius: 4rem;
+   cursor: pointer;
+}
+.f-container .contact .phone{
+   border: none;
+   background-color: transparent;
+   font-family: Neue-light;
+   font-size: 1.2rem;
+   letter-spacing: .1rem;
+   color:#fff; 
+   border: 1px solid #cecece29;
+   padding: 1.5rem 2.5rem;
+   border-radius: 4rem;
+   cursor: pointer;
+}

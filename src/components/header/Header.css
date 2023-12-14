@@ -1,0 +1,181 @@
+.h-wrapper{
+    background: url("/src/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* dekstop navigation */
+
+.navigation{
+   font-family: Neue-reg; 
+   display: flex;
+   justify-content: space-between;
+}
+
+.navigation .logo{
+    color: #fff;
+}
+
+.navigation .menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.navigation .menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* mobile navigation */
+
+.button{
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    z-index: 5;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:#1c1d20;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    border: 1px solid #cecece29;
+}
+
+.button:hover{
+    background-color: #455CE9;
+
+}
+.burger{
+    width: 100%;
+}
+
+.burger::after, .burger::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.burger::after{
+    top: -5px;
+}
+
+.burger::before{
+    top: 5px;
+}
+
+.burgerActive::after{
+    transform: rotate(45deg);
+    top: -1px;
+}
+.burgerActive::before{
+    transform: rotate(-45deg);
+    top: 0px;
+}
+
+.mobile-navigation{
+    height: 100vh;
+    width: 37%;
+    background-color:#1C1D20;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.mobile-navigation .nav-container{
+    padding: 7rem 6rem 7rem 7rem;
+}
+
+.nav-container .nav-heading{
+    color: #858585;
+    font-family: Neue-light;
+    font-size: .7rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #858585;
+}
+
+.nav-container .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+    padding-top: 3rem;
+}
+
+.nav-container .mobile-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Neue-reg;
+    font-size: 3.8rem;
+}
+
+.nav-container .socials-container{
+    padding-top: 7rem;
+}
+
+.nav-container .socials-container .socials-heading{
+    color: #858585;
+    font-family: Neue-light;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+.nav-container .socials-container .socials{
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.nav-container .socials-container .socials a{
+    font-family: Neue-light;
+    font-size: .9rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.svgCurve{
+    position: absolute;
+    top: 0;
+    left: -99px;
+    width: 100px;
+    height: 100%;
+    fill: rgb(41, 41, 41);
+    stroke: none;
+
+}
+
+.slider-container{
+    position: absolute;
+    top: calc(100vh - 300px);
+  }
+
+.slider p{
+    position: relative;
+    margin: 0px;
+    color: #fff;
+    font-family: Neue-reg;
+    font-size: 14rem;
+    padding-right: 50px;
+    white-space: nowrap;
+  }
+  
+.slider p:nth-of-type(2){
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+
